@@ -2,8 +2,9 @@
   "name": "dart-flutter-exports",
   "displayName": "Dart & Flutter Exports",
   "description": "Creates export files for Dart & Flutter folders",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "elmsec",
+  "icon": "icon.png",
   "license": "MIT",
   "repository": {
     "type": "git",
