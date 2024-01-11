@@ -1,0 +1,52 @@
+{
+  "name": "dart-flutter-exports",
+  "displayName": "Dart & Flutter Exports",
+  "description": "Creates export files for Dart & Flutter folders",
+  "version": "1.0.0",
+  "publisher": "elmsec",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elmsec/dart-flutter-exports"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "dart-flutter-exports.createExporterFiles",
+        "title": "Generate Dart export files"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "when": "explorerResourceIsFolder",
+          "command": "dart-flutter-exports.createExporterFiles",
+          "group": "navigation@1000"
+        }
+      ]
+    }
+  },
+  "activationEvents": [],
+  "commands": [],
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "yarn run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3",
+    "@vscode/test-cli": "^0.0.4",
+    "@vscode/test-electron": "^2.3.8"
+  }
+}
