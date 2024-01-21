@@ -10,8 +10,13 @@ The extension provides the following features:
 - **Overwrite Confirmation**: Prompts the user to confirm overwriting existing exporter files or skip the current folder.
 - **Intelligent Export Checks**: Improved checks to identify existing exporter files and avoid overwriting non-exporter files.
 
+## Usage
+Simply right click on a folder in your Dart/Flutter project and click on the "Generate Dart export files" option. 
+
+Remember that this operation works recursively, meaning that it will also create export files for subfolders.
+
 ## Demo
-https://github.com/elmsec/dart-flutter-exports/assets/42157155/5a1be88c-56c7-4cd6-a3af-3dc2e99049ff
+<video src="https://elma.dev/_files/dart-exports.mp4" controls></video>
 
 ## Requirements
 
